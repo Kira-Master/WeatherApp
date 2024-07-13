@@ -1,0 +1,12 @@
+// src/index.js
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App.jsx'; // Make sure the extension matches
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
